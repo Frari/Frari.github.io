@@ -99,13 +99,13 @@ a {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
-.site-section {
+/*.site-section {
   padding: 3em 0; }
   @media (min-width: 768px) {
     .site-section {
       padding: 7em 0; } }
   .site-section.site-section-sm {
-    padding: 4em 0; }
+    padding: 4em 0; }*/
 
 .site-footer {
   padding: 2em 0;
