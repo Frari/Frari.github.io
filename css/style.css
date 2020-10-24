@@ -1495,16 +1495,16 @@ a {
 }
 
 /*space beetwen navbar and content container*/
-.site-section{
+#site-section-first{
   padding-top: 15%;
 }
 @media (max-width: 767.98px) { 
-  .site-section{
+  #site-section-first{
     padding-top: 27%;
   }
 }
 @media (max-width: 575.98px) { 
-  .site-section{
+  #site-section-first{
     padding-top: 37%;
   }
 }
