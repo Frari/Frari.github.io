@@ -1496,7 +1496,7 @@ a {
 
 /*space beetwen navbar and content container*/
 #site-section-first{
-  padding-top: 15%;
+  padding-top: 10%;
 }
 @media (max-width: 767.98px) { 
   #site-section-first{
@@ -1518,3 +1518,44 @@ a {
     width: 15rem;
   }
 }
+
+/*icons services*/
+.icon-service{
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+.container-services{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.container-icon-service{
+  display: flex;
+  flex-direction: column;
+}
+.container-icons{
+  max-width: none;
+  display: flex;
+  justify-content: center;
+}
+
+/*danger contat form*/
+#status-success,
+#status-error{
+  display: none;
+}
+
+/*image booking*/
+.container-book-vote{
+  display: flex;
+  justify-content: center;
+}
+.booking-vote{
+  width: 90%;
+}
+@media (min-width: 768px) { 
+  .booking-vote{
+    width: 25%;
+  }
+}  
